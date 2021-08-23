@@ -47,10 +47,16 @@ a {
   color: #061d86;
   font-size: 20px;
   margin-top: 8px;
+  display: flex;
+}
+.link:hover .link__hover{
+  display: block;
+}
+.link__hover {
+  display: none;
+  color: #061d86;
 }
 
 .link:hover {
-  color: #920505;
-  font-size: 22px;
+  color: #ce0808;
 }
-/*# sourceMappingURL=style.css.map */

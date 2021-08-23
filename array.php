@@ -51,7 +51,4 @@
         echo "<dt>$key<dd>$value";
     }
     echo '</dl>';
-
-    
-
 ?>
